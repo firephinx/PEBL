@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
-project(cluster_extraction)
+project(plane_extraction_based_localization)
 
 find_package(PCL 1.2 REQUIRED)
 
@@ -9,6 +9,6 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable (PEBCL PEBCL.cpp)
-target_link_libraries (PEBCL ${PCL_LIBRARIES})
+add_executable (PEBL PEBL.cpp)
+target_link_libraries (PEBL ${PCL_LIBRARIES})
 

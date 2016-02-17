@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/klz1/Documents/PEBCL
+CMAKE_SOURCE_DIR = /home/firephinx/Documents/Github/PEBL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/klz1/Documents/PEBCL
+CMAKE_BINARY_DIR = /home/firephinx/Documents/Github/PEBL
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/klz1/Documents/PEBCL/CMakeFiles /home/klz1/Documents/PEBCL/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firephinx/Documents/Github/PEBL/CMakeFiles /home/firephinx/Documents/Github/PEBL/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/klz1/Documents/PEBCL/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firephinx/Documents/Github/PEBL/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,41 +99,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PEBCL
+# Target rules for targets named PEBL
 
 # Build rule for target.
-PEBCL: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PEBCL
-.PHONY : PEBCL
+PEBL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PEBL
+.PHONY : PEBL
 
 # fast build rule for target.
-PEBCL/fast:
-	$(MAKE) -f CMakeFiles/PEBCL.dir/build.make CMakeFiles/PEBCL.dir/build
-.PHONY : PEBCL/fast
+PEBL/fast:
+	$(MAKE) -f CMakeFiles/PEBL.dir/build.make CMakeFiles/PEBL.dir/build
+.PHONY : PEBL/fast
 
-PEBCL.o: PEBCL.cpp.o
-.PHONY : PEBCL.o
+PEBL.o: PEBL.cpp.o
+.PHONY : PEBL.o
 
 # target to build an object file
-PEBCL.cpp.o:
-	$(MAKE) -f CMakeFiles/PEBCL.dir/build.make CMakeFiles/PEBCL.dir/PEBCL.cpp.o
-.PHONY : PEBCL.cpp.o
+PEBL.cpp.o:
+	$(MAKE) -f CMakeFiles/PEBL.dir/build.make CMakeFiles/PEBL.dir/PEBL.cpp.o
+.PHONY : PEBL.cpp.o
 
-PEBCL.i: PEBCL.cpp.i
-.PHONY : PEBCL.i
+PEBL.i: PEBL.cpp.i
+.PHONY : PEBL.i
 
 # target to preprocess a source file
-PEBCL.cpp.i:
-	$(MAKE) -f CMakeFiles/PEBCL.dir/build.make CMakeFiles/PEBCL.dir/PEBCL.cpp.i
-.PHONY : PEBCL.cpp.i
+PEBL.cpp.i:
+	$(MAKE) -f CMakeFiles/PEBL.dir/build.make CMakeFiles/PEBL.dir/PEBL.cpp.i
+.PHONY : PEBL.cpp.i
 
-PEBCL.s: PEBCL.cpp.s
-.PHONY : PEBCL.s
+PEBL.s: PEBL.cpp.s
+.PHONY : PEBL.s
 
 # target to generate assembly for a file
-PEBCL.cpp.s:
-	$(MAKE) -f CMakeFiles/PEBCL.dir/build.make CMakeFiles/PEBCL.dir/PEBCL.cpp.s
-.PHONY : PEBCL.cpp.s
+PEBL.cpp.s:
+	$(MAKE) -f CMakeFiles/PEBL.dir/build.make CMakeFiles/PEBL.dir/PEBL.cpp.s
+.PHONY : PEBL.cpp.s
 
 # Help Target
 help:
@@ -141,12 +141,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... PEBCL"
+	@echo "... PEBL"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... PEBCL.o"
-	@echo "... PEBCL.i"
-	@echo "... PEBCL.s"
+	@echo "... PEBL.o"
+	@echo "... PEBL.i"
+	@echo "... PEBL.s"
 .PHONY : help
 
 
